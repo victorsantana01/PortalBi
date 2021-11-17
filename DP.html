@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>RODOVITOR | PORTAL BI</title>
+        <meta name="description" content="Dashboard UI Kit">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-signin-client_id" content="362526296615-ruslb27et6e4cn013mtbt2copr1ulogk.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+       
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600" rel="stylesheet">
+        
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.min.css">
+        
+        <script language=javascript type="text/javascript">
+function newPopup(){
+varWindow = window.open (
+'https://accounts.google.com/signin/v2/identifier?hl=pt-BR&continue=https%3A%2F%2Fmail.google.com%2Fmail&service=mail&ec=GAlAFw&flowName=GlifWebSignIn&flowEntry=AddSession',
+'pagina',
+"width=350, height=600, top=100, left=110, scrollbars=no " );
+}
+</script>
+    </head>
+    <style>
+.container-fluid {
+width: 1400px;
+height: 750px;
+background: #1D2531;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center
+    
+}
+.box {
+width: 300px;
+height: 300px;
+background: #fff;
+}
+body {
+margin: 0px;
+}
+</style>
+    
+          
+          
+    <body style="background-color: #1D2531">
+        <div class="c-toolbar u-bg-linkedin">
+        
+            <h5 class="c-toolbar__meta u-mr-auto"><b>DP</b></h5>
+        
+        
+            <!-- Button trigger modal -->
+            <a href="comercial.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-phone-square u-mr-xsmall"> </i>
+                    COMERCIAL
+                </button></a>
+            <a href="DP.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    DP
+                </button></a>
+        
+            <a href="contabil.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-money u-mr-xsmall"> </i>
+                    CONTABIL
+                </button></a>
+        
+            <a href="frota.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-truck u-mr-xsmall"> </i>
+                    FROTA
+                </button></a>
+        
+            <a href="operacao.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-map-signs u-mr-xsmall"> </i>
+                    EXPEDIÇÃO / OPERAÇÃO
+                </button></a>
+            <a href="monitoramento.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-map-marker u-mr-xsmall"> </i>
+                    MONITORAMENTO
+                </button></a>
+        
+            <a href="monitoramento 2.0.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-map-marker u-mr-xsmall"> </i>
+                    Visão 2.0
+                </button></a>
+        
+            <a href="informacao.html"><button type="button" class="c-btn c-btn--send u-ml-small" data-toggle="modal"
+                    data-target="#onBoardModal">
+                    <i class="fa fa-map u-mr-xsmall"> </i>
+                    Informação de Viagem
+                </button></a>
+        </div>
+
+                     
+           <!-- MENU DE NAVEGAÇÃO APAGADO  -->
+            
+
+
+        <!--Conteudo Antigo-->
+      
+        <div class="row" style="display: none">
+       
+                <div class="col-sm-6 col-lg-3">
+                    <div class="c-state">
+                        <h3 class="c-state__title">COMERCIAL / SAC</h3>
+                        <h4 class="c-state__number">20</h4>
+                        <p class="c-state__status"></p>
+                        <span class="c-state__indicator">
+                            <i class="fa fa-calendar"></i>
+                        </span>
+                    </div><!-- // c-state -->
+                </div>
+          
+                <div class="col-sm-6 col-lg-3">
+                    <div class="c-state c-state--success">
+                        <h3 class="c-state__title">Atendimentos Realizadas</h3>
+                        <h4 class="c-state__number">5</h4>
+                        <p class="c-state__status"></p>
+                        <span class="c-state__indicator">
+                            <i class="fa fa-check"></i>
+                        </span>
+                    </div><!-- // c-state -->
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="c-state c-state--warning">
+                        <h3 class="c-state__title">Atendimentos Hoje</h3>
+                        <h4 class="c-state__number">4</h4>
+                        <p class="c-state__status"></p>
+                        <span class="c-state__indicator">
+                            <i class="fa fa-heart"></i>
+                        </span>
+                    </div><!-- // c-state -->
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="c-state c-state--danger">
+                        <h3 class="c-state__title">Atendimentos Pendentes</h3>
+                        <h4 class="c-state__number">9</h4>
+                        <p class="c-state__status"></p>
+                        <span class="c-state__indicator">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                    </div><!-- // c-state -->
+                </div>
+        </div>
+      
+
+        <div class="row">
+<iframe class="container-fluid"  src="https://datastudio.google.com/embed/reporting/2a8e93ad-d7ba-46e3-9ec3-982a01ed5928/page/p_emv9bwt6lc" frameborder="0" style="border:0" frameborder="0" style="border:0; display: block" allowfullscreen ></iframe>
+       
+</div>
+ <!-- // .row -->
+        <script src="js/main.min.js"></script>
+    </body>
+</html>
